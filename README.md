@@ -3,7 +3,7 @@
 ### server.py
 1. All clients are handled by separate threads.
 2. Communication format is JSON.
-3. if ip address is not specified in JSON, the server echo backs the data. 
+3. If ip address is not specified in JSON, the server echo backs the data. 
 4. Else it forwards the data to the specified ip address, also it changes the ip address to the source ip(from initial dest ip)  which can be used by destination to send back data again.
 
 ### android 
