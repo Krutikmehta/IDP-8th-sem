@@ -12,6 +12,8 @@
 
 ### esp8266
 1. Forwards received data from/to launchpad to/from the server.
+2. It sends data in size of 100 bytes to the launchpad.
+3. It can receive variable length data from launchpad.
 
 ### launchpad
 1. Receives data from the esp8266.
